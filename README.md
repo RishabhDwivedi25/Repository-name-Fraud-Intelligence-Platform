@@ -1,5 +1,10 @@
 # Fraud Intelligence Platform
 
+## Live Demo
+
+🚀 Try the app:
+https://fraud-intelligence-platform.streamlit.app/
+
 ## Overview
 
 Fraud Intelligence Platform is a Machine Learning-based web application developed using Streamlit. The platform helps identify potentially fraudulent financial transactions by analyzing transaction details and generating fraud risk predictions.
