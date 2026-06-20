@@ -238,6 +238,10 @@ with tab1:
         )
 
   
+
+tab1, tab2 = st.tabs(["📊 Dashboard", "🔍 Single Transaction"])
+
+
 with tab2:
  
     # Inputs
@@ -319,7 +323,7 @@ with tab2:
 
         st.subheader("🥧 Fraud Probability Distribution")
 
-        fig2, ax2 = plt.subplots(figsize=(1.8,1.8))
+        fig2, ax2 = plt.subplots(figsize=(2.5,2.5))
 
         ax2.pie(
             [probability[0] * 100, probability[1] * 100],
@@ -334,7 +338,7 @@ with tab2:
 
         fig2.tight_layout()
 
-        st.pyplot(fig2, use_container_width=False)
+        st.pyplot(fig2)
 # End of file
 st.markdown("---")
 st.caption("Developed by Rishabh Dwivedi | Fraud Intelligence Platform v1.0")    
