@@ -319,7 +319,7 @@ with tab2:
 
         st.subheader("🥧 Fraud Probability Distribution")
 
-        fig2, ax2 = plt.subplots(figsize=(1.8,1.8))
+        fig2, ax2 = plt.subplots(figsize=(3,3))
 
         ax2.pie(
             [probability[0] * 100, probability[1] * 100],
